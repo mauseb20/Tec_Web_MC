@@ -32,6 +32,8 @@ Para utilizar un [link](https://github.com/mauseb20/Tec_Web_MC) debemos encerrar
 ##Imagenes
 
 Para poder utilizar imagenes debemos colocar un texto alternativo en brackets [] despues del caracter de exclamacion, seguido por la imagen en parentesis ()
+
+
 ![Imagen JS](https://camo.githubusercontent.com/891e94cd8dda7f40f451bb27067be513c230318a/68747470733a2f2f7261772e6769746875622e636f6d2f766f6f646f6f74696b69676f642f6c6f676f2e6a732f6d61737465722f626f676a732f6a732e706e67 "JavaScript")
 
 ##Formato de codigo
