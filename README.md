@@ -74,3 +74,14 @@ Para utilizar tablas necesitamos definir las columnas con el pipe "|"
 |Valor 4 C1|Valor 4 C2|Valor 4 C3|Valor 4 C4|
 |Valor 5 C1|Valor 5 C2|Valor 5 C3|Valor 5 C4|
 
+##Citas bibliograficas
+
+Para escribir varias lineas de citas solamente las concatenamos en la siguiente linea utilizando el mayor que `>`
+
+> Yo solo se que nada se
+> Socrates
+
+Si no solo utilizamos el mayor que `>` 
+
+> Temo el día en que la tecnología sobrepase nuestra humanidad; el mundo solo tendrá una generación de idiotas
+> Albert Einstein
