@@ -87,3 +87,17 @@ Si no solo utilizamos el mayor que `>`
 > Temo el día en que la tecnología sobrepase nuestra humanidad; el mundo solo tendrá una generación de idiotas
 
 > Albert Einstein
+
+##Saltos de linea
+
+Para realizar un salto de linea debemos utilizar mas de  3 veces el caracter `-`
+
+---
+
+o el caracter `*`
+
+***
+
+o el caracter `_`
+
+___
