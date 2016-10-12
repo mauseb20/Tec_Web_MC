@@ -46,3 +46,18 @@ Para utilizar el formato de codigo en un bloque de codigo debemos utilizar tres 
 ```javascript
 ver mensaje="Hola Mundo";
 ```
+
+* Bloque de codigo de una `Consola`
+
+```
+
+>apt-get update paquete
+>
+
+```
+
+* Bloque de html
+```
+<html>
+</html>
+```
