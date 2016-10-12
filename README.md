@@ -79,9 +79,11 @@ Para utilizar tablas necesitamos definir las columnas con el pipe "|"
 Para escribir varias lineas de citas solamente las concatenamos en la siguiente linea utilizando el mayor que `>`
 
 > Yo solo se que nada se
+
 > Socrates
 
 Si no solo utilizamos el mayor que `>` 
 
 > Temo el día en que la tecnología sobrepase nuestra humanidad; el mundo solo tendrá una generación de idiotas
+
 > Albert Einstein
