@@ -1,6 +1,6 @@
 # Repositorio de tecnologias web personal
 
-Este repositorio forma parte del curso de tecnologias [curso de tecnologias web](https://github.com/adrianeguez/Tec_Web_Js_2016_B)
+Este repositorio forma parte del [curso de tecnologias web con JavaScript](https://github.com/adrianeguez/Tec_Web_Js_2016_B)
 
 
 ## Enfasis de texto
