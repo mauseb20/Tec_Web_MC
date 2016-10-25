@@ -1,0 +1,30 @@
+/*nombreTag {
+            propiedad1:valorPropiedad1
+            propiedad2:valorPropiedad2
+        }*/
+        html{
+            background-color: antiquewhite ;
+        }
+        body{
+            background-color: cadetblue ;
+        }
+        h1{
+            background-color: dodgerblue ;
+        }
+        p{
+            background-color: cornflowerblue
+        }
+        /*por clase*/
+        .nombreClaseRojo{
+            background-color: red;
+        }
+        .nombreClaseAzul{
+            background-color: blue;
+        }
+        .nombreClaseAmarillo{
+            background-color: yellow;
+        }
+        /*por id*/
+        #parrafoVerde{
+            background-color: darkgreen;
+        }
