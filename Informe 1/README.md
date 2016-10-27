@@ -77,7 +77,7 @@ Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, 
 - <a name="her-insp"></a>**Herramienta Inspeccionar** es una herramienta proporcionada por los navegadores que permite identificar con precisión el código HTML de todos los elementos que se ven en una página web.
 - <a name="postman"></a>**Postman** herramienta que permite revisar la comunicacion entre las APIs.
 - <a name="npm"></a>**NPM (Node Package Manager)** es el manejador de paquetes por defecto para Node.js, un entorno de ejecución para JavaScript.
-- <a name="xml"></a>**XML (eXtensible Markup Language)** es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) 0 para almacenar datos en forma legible.
+- <a name="xml"></a>**XML (eXtensible Markup Language)** es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el *World Wide Web Consortium (W3C)* para almacenar datos en forma legible.
 - <a name="tags"></a>**Tags HTML** son una marca con clase que delimita una región en los lenguajes basados en XML.
 
 
