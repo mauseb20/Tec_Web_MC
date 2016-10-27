@@ -23,10 +23,12 @@
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
-***
+___
 
 <a name="intro"></a>
+
 ## Introducción
+
 La World Wide Web **(WWW)** nace en los años 90 y su función es ordenar y distribuir la información que existe en la internet, basado en el uso de hipertextos, es decir, paginas en las cuales se pueden insertar hipervinculos. Estos conducen al usuario a un mismo punto dentro de una pagina web, o de una pagina web a otra. 
 
 Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, el mas utilizado es el **HTML** (Hyper Text Markup Lenguaje). Este tipo de lenguajes permite ordenar la informacion dentro de las paginas web de uno u otro modo.
