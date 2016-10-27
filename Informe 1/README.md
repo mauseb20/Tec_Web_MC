@@ -3,7 +3,7 @@
 </p>
 
 # Introducción a la WEB - HTML
----
+***
 ### MATERIA:        `Tecnologías Web con JavaScript`
 ### TEMA:           `Introducción a la Web - HTML`
 ### FECHA:          `2016-10-18`
