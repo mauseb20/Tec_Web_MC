@@ -22,7 +22,9 @@
   * 
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
+
 ***
+
 <a name="intro"></a>
 ## Introducción
 La World Wide Web **(WWW)** nace en los años 90 y su función es ordenar y distribuir la información que existe en la internet, basado en el uso de hipertextos, es decir, paginas en las cuales se pueden insertar hipervinculos. Estos conducen al usuario a un mismo punto dentro de una pagina web, o de una pagina web a otra. 
@@ -46,26 +48,26 @@ Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, 
 <a name="marco"></a>
 ##Marco Teórico
 - **HTTP Methods** permiten realizar diferentes tipos de peticiones *REQUEST/RESPONSE* a un servidor dependiendo de las necesidades de la aplicación. Los diferentes tipos de metodos son: 
-    * ** *OPTIONS:* **solicitud de información acerca de las opciones de comunicación disponibles.
-    * ** *GET:* **recuperación de la información en forma de una entidad identificada por el URI.
-    * ** *HEAD:* **similar al metodo *GET* solo que el servidor no envia un mensaje de BODY en la respuesta.
-    * ** *POST:* **solicita que el servidor que la entidad incluida en la *request* como un nuevo subordinado del recurso.
-    * ** *PUT:* **se solicita un almacenamiento de la entidad identificada por el URI, en caso de que la entidad ya exista se aconcidera como una modificacion de la entidad existente en el servidor.
-    * ** *DELETE:* **se solicita que el servidor de origen elimine el recurso identificado por el URI de la solicitud
-    * ** *TRACE:* **permite al cliente ver lo que se recibe en el otro extremo del *request*.
-    * ** *CONNECT:* **reservado para el uso de un proxyque puede puede cvambiar dinamicamente a un tunel.
+    * ***OPTIONS:*** solicitud de información acerca de las opciones de comunicación disponibles.
+    * ***GET:*** recuperación de la información en forma de una entidad identificada por el URI.
+    * ***HEAD:*** similar al metodo *GET* solo que el servidor no envia un mensaje de BODY en la respuesta.
+    * ***POST:*** solicita que el servidor que la entidad incluida en la *request* como un nuevo subordinado del recurso.
+    * ***PUT:***se solicita un almacenamiento de la entidad identificada por el URI, en caso de que la entidad ya exista se aconcidera como una modificacion de la entidad existente en el servidor.
+    * ***DELETE:*** se solicita que el servidor de origen elimine el recurso identificado por el URI de la solicitud
+    * ***TRACE:*** permite al cliente ver lo que se recibe en el otro extremo del *request*.
+    * ***CONNECT:*** reservado para el uso de un proxyque puede puede cvambiar dinamicamente a un tunel.
 - **Codigos de estado HTTP** son mensajes de respuesta que se envian al navegador para determinar el estado de la conexion http. los principales codigos de estado con:
-    * ** *1XX:* **Informan al navegador de acciones que se van a realizar.
-    * ** *2XX:* **Indican que la petición del navegador se ha recibido, procesado y respondido correctamente.
-    * ** *3XX:* **Indican que el navegador debe realizar alguna acción adicional para que la petición se complete (como por ejemplo redirigirse a otra página).
-    * ** *4XX:* **Indican que se ha producido un error cuyo responsable es el navegador.
-    * ** *5XX:* **Indican que se ha producido un error cuyo responsable es el servidor.
+    * ***1XX:***Informan al navegador de acciones que se van a realizar.
+    * ***2XX:***Indican que la petición del navegador se ha recibido, procesado y respondido correctamente.
+    * ***3XX:***Indican que el navegador debe realizar alguna acción adicional para que la petición se complete (como por ejemplo redirigirse a otra página).
+    * ***4XX:***Indican que se ha producido un error cuyo responsable es el navegador.
+    * ***5XX:***Indican que se ha producido un error cuyo responsable es el servidor.
 - **W3C** *World Wide Web Consortium* consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento de la World Wide Web a largo plazo.
 - **W3Schools** es un sitio web popular para el aprendizaje de las tecnologías web en línea. El contenido incluye tutoriales y referencias relacionadas con HTML, CSS, JavaScript, PHP, SQL, etc.
 - **Herramienta Inspeccionar** es una herramienta proporcionada por los navegadores que permite identificar con precisión el código HTML de todos los elementos que se ven en una página web.
 - **Postman** herramienta que permite revisar la comunicacion entre las APIs.
 - **NPM (Node Package Manager)** es el manejador de paquetes por defecto para Node.js, un entorno de ejecución para JavaScript.
-- **XML** *e**X**tensible **M**arkup **L**anguage* es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible.
+- **XML**  *(e**X**tensible **M**arkup **L**anguage)* es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible.
 - **Tags HTML** son una marca con clase que delimita una región en los lenguajes basados en XML.
 
 
