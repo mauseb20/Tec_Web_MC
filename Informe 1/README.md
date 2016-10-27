@@ -89,3 +89,9 @@ Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, 
 
 <a href="#indice">Volver al Indice</a>
 ***
+<a name="conrec"></a>
+##Conclusiones y Recomendaciones
+
+
+<a href="#indice">Volver al Indice</a>
+***
