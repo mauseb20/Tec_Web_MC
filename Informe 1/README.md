@@ -79,6 +79,10 @@ Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, 
 - <a name="npm"></a>**NPM (Node Package Manager)** es el manejador de paquetes por defecto para Node.js, un entorno de ejecución para JavaScript.
 - <a name="xml"></a>**XML (eXtensible Markup Language)** es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el *World Wide Web Consortium (W3C)* para almacenar datos en forma legible.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Ejemplo%20xml.png">
+</p>
+
         Figura 1. Ejemplo de codigo XML
 - <a name="tags"></a>**Tags HTML** son una marca con clase que delimita una región en los lenguajes basados en XML.
 
@@ -87,39 +91,51 @@ Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, 
 ***
 <a name="desarrollo"></a>
 ##Desarrollo de la Práctica
-Antes de dar inicio a la practica se realizo una declaracion de tipo de documento, la cual asocia el documento que se creo en esta practica al tipo de documento HTML (Figura 1). esto determina el modo de visualización que tendra el documento en el navegador.
-
+Antes de dar inicio a la practica se realizo una declaracion de tipo de documento, la cual asocia el documento que se creo en esta practica al tipo de documento HTML. esto determina el modo de visualización que tendra el documento en el navegador.
+<p align="center">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Doctype.png">
+</p>
 *Figura 2. Ejemplo de definicion para un documento HTML*
 
 Una vez realizado esto se procedio a ver los primerso tags basicos que se utilizan para la construccion de una pagina geb con HTML5.
 
 #### Cabeceras ```<hX>```
 Este tag sirve para definir encabezados van desde el ```<h1>``` hasta el ```<h6>```, donde ```<h1>``` define el encabezado mas importante y ```<h6>``` define el encabezado menos importante.
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Headers.png">
+</p>
 *Figura 3. Uso de cabeceras*
 
 #### Listas 
 
 Para escribir una lista en codigo HTML se deben usar los siguientes tags ```<ul>``` para listas no ordenadas, ```<ol>``` para listas ordenadas y ```<li>``` dentro de los tags anteriores para lsitar cada uno de los elementos.
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Listas.png">
+</p>
 *Figura 4. Uso de listas ordenadas y desordenadas*
 
 #### Parrafos 
 
 Para escribir un parrafo completo se debe utilizar el tag ```<p>``` el cual permitira dentro de este redactar todo el contenido necesario.
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Parrafos.png">
+</p>
 *Figura 5. Ejemplo de creacion de parrafos*
 
 #### Imagenes 
 
 Para referenciar una imagen se utiliza el tag  ```<img src="" alt="">``` en donde ```scr``` hace referencia ala direccion de ubicacion de la imagen y ```alt``` es un texto auxiliar el cual sirve para describir el contenido de la imagen para personas con problemas de visión.
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Imagen.png">
+</p>
 *Figura 6. Ejemplo de insercion de imagenes*
 
 #### Links 
 
 Para insertar un link de redireccionamiento a otra pagina web se debe utilizar el tag  ```<a href="" target="">```. En donde ```href``` hace referencia a la pagina a la cual se quiere acceder y ```target``` determina el destino de apertura, es decir, una nueva pestaña, una nueva ventana, en la misma ventana, etc.
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Links.png">
+</p>
 *Figura 7. Ejemplo de creacion de links*
 
 #### Clases 
@@ -129,14 +145,22 @@ Dentro de los tags se pueden definir clases que determinan el compratamiento que
 <h2 style="background-color:pink">Listas desordenadas</h2>
     
 ```
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Clases.png">
+</p>
 *Figura 8. Ejemplo de uso de la clase ```style```*
 
 <a href="#indice">Volver al Indice</a>
 ***
 <a name="conrec"></a>
 ##Conclusiones y Recomendaciones
-
+- Las cabeceras debe ser seleccionadas adecuadamente, dentro de las 6 existentes cada una tiene un tamaño que se empleara segun las necesidades.
+- Se pueden realizar combinaciones de tags, es decir, el poner un tag dentro de otro puede cambiar el comportamiento de un elemento. Por ejemplo se puede realizar una imagen referente a otra pagina web.
+- Las clases dentro de los tags cambian el comportamiento de los elementos contenidos en estos, lo que produce una mejor navegabilidad, mejor visibilidad, etc. Si se los usa adecuadamente.
 
 <a href="#indice">Volver al Indice</a>
 ***
+
+##Gracias por la atención
+
+- ##### Autor: *[Mauricio Cabrera L.](https://github.com/mauseb20)*
