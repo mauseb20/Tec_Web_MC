@@ -163,4 +163,4 @@ Dentro de los tags se pueden definir clases que determinan el compratamiento que
 
 ##Gracias por la atención
 
-- ##### Autor: *[Mauricio Cabrera L.](https://github.com/mauseb20)*
+- #####Autor: *[Mauricio Cabrera L.](https://github.com/mauseb20)*
