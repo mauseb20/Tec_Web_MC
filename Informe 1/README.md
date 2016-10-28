@@ -78,6 +78,8 @@ Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, 
 - <a name="postman"></a>**Postman** herramienta que permite revisar la comunicacion entre las APIs.
 - <a name="npm"></a>**NPM (Node Package Manager)** es el manejador de paquetes por defecto para Node.js, un entorno de ejecución para JavaScript.
 - <a name="xml"></a>**XML (eXtensible Markup Language)** es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el *World Wide Web Consortium (W3C)* para almacenar datos en forma legible.
+
+        Figura 1. Ejemplo de codigo XML
 - <a name="tags"></a>**Tags HTML** son una marca con clase que delimita una región en los lenguajes basados en XML.
 
 
@@ -85,7 +87,50 @@ Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, 
 ***
 <a name="desarrollo"></a>
 ##Desarrollo de la Práctica
+Antes de dar inicio a la practica se realizo una declaracion de tipo de documento, la cual asocia el documento que se creo en esta practica al tipo de documento HTML (Figura 1). esto determina el modo de visualización que tendra el documento en el navegador.
 
+*Figura 2. Ejemplo de definicion para un documento HTML*
+
+Una vez realizado esto se procedio a ver los primerso tags basicos que se utilizan para la construccion de una pagina geb con HTML5.
+
+#### Cabeceras ```<hX>```
+Este tag sirve para definir encabezados van desde el ```<h1>``` hasta el ```<h6>```, donde ```<h1>``` define el encabezado mas importante y ```<h6>``` define el encabezado menos importante.
+
+*Figura 3. Uso de cabeceras*
+
+#### Listas 
+
+Para escribir una lista en codigo HTML se deben usar los siguientes tags ```<ul>``` para listas no ordenadas, ```<ol>``` para listas ordenadas y ```<li>``` dentro de los tags anteriores para lsitar cada uno de los elementos.
+
+*Figura 4. Uso de listas ordenadas y desordenadas*
+
+#### Parrafos 
+
+Para escribir un parrafo completo se debe utilizar el tag ```<p>``` el cual permitira dentro de este redactar todo el contenido necesario.
+
+*Figura 5. Ejemplo de creacion de parrafos*
+
+#### Imagenes 
+
+Para referenciar una imagen se utiliza el tag  ```<img src="" alt="">``` en donde ```scr``` hace referencia ala direccion de ubicacion de la imagen y ```alt``` es un texto auxiliar el cual sirve para describir el contenido de la imagen para personas con problemas de visión.
+
+*Figura 6. Ejemplo de insercion de imagenes*
+
+#### Links 
+
+Para insertar un link de redireccionamiento a otra pagina web se debe utilizar el tag  ```<a href="" target="">```. En donde ```href``` hace referencia a la pagina a la cual se quiere acceder y ```target``` determina el destino de apertura, es decir, una nueva pestaña, una nueva ventana, en la misma ventana, etc.
+
+*Figura 7. Ejemplo de creacion de links*
+
+#### Clases 
+
+Dentro de los tags se pueden definir clases que determinan el compratamiento que tendra el elemento contenido por el tag. Como por ejemplo el estilo que este tendra. para poder hacer uso de dichas clases se debe dentro del tag definir la clase a utilizar y el valor de dicha clase, ejemplo:
+```
+<h2 style="background-color:pink">Listas desordenadas</h2>
+    
+```
+
+*Figura 8. Ejemplo de uso de la clase ```style```*
 
 <a href="#indice">Volver al Indice</a>
 ***
