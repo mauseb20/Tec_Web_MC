@@ -5,11 +5,11 @@
 # Introducción a la WEB - HTML
 ***
 ### MATERIA:        `Tecnologías Web con JavaScript`
-### TEMA:           `Introducción a la Web - HTML`
-### FECHA:          `2016-10-18`
+### TEMA:           `Uso HTML y CSS`
+### FECHA:          `2016-10-25`
 ### ESTUDIANTE:     `Mauricio Sebastian Cabrera Laguapillo`
 ### PROFESOR:       `Tania Calle - Adrian Eguez`
-### INFORME:        `1`
+### INFORME:        `2`
 ***
 
 
@@ -20,13 +20,6 @@
 - <a href="#marco">Marco Teorico</a>
   * <a href="#metodos">HTTP Methods</a>
   * <a href="#codigos">Codigos de estado HTTP</a>
-  * <a href="#w3c">W3C</a>
-  * <a href="#w3s">W3Schools</a>
-  * <a href="#her-insp">Herramienta Inspeccionar</a>
-  * <a href="#postman">Postman</a>
-  * <a href="#npm">NPM</a>
-  * <a href="#xml">XML</a>
-  * <a href="#tags">Tags HTML</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
