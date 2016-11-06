@@ -46,7 +46,8 @@ Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, 
 <a name="marco"></a>
 ##Marco Teórico
 
-- <a name="css"></a>**CSS** *Cascading Stylesheets* ó *Hojas de Estilo en Cascada* es un lenguaje de hojas de estilo que permite definir y crear la presentación de un documento escrito y estructurado en lenguaje de marcado. es muy utilizado para establecer el diseño visual de las páginas web, e interfaces de usuario escritas en **HTML** o en **XHTML**. 
+<a name="css"></a>
+**CSS** *Cascading Stylesheets* ó *Hojas de Estilo en Cascada* es un lenguaje de hojas de estilo que permite definir y crear la presentación de un documento escrito y estructurado en lenguaje de marcado. es muy utilizado para establecer el diseño visual de las páginas web, e interfaces de usuario escritas en **HTML** o en **XHTML**. 
 
 Junto con HTML y JavaScript, CSS es una tecnologia usada por muchos sitios web para crear páginas visualmente atractivas, interfaces de usuario para aplicaciones web, y GUIs para muchas aplicaciones móviles. Ademas está diseñado principalmente para marcar la separación del contenido del documento y la forma de presentación de éste, características tales como las capas o layouts, los colores y las fuentes.
 
