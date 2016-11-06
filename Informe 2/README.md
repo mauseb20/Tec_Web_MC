@@ -18,8 +18,7 @@
 - <a href="#intro">Introducción</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco">Marco Teorico</a>
-  * <a href="#metodos">HTTP Methods</a>
-  * <a href="#codigos">Codigos de estado HTTP</a>
+  * <a href="#css">CSS</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -29,9 +28,7 @@ ___
 
 ## Introducción
 
-La World Wide Web **(WWW)** nace en los años 90 y su función es ordenar y distribuir la información que existe en la internet, basado en el uso de hipertextos, es decir, paginas en las cuales se pueden insertar hipervinculos. Estos conducen al usuario a un mismo punto dentro de una pagina web, o de una pagina web a otra. 
-
-Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, el mas utilizado es el **HTML** (Hyper Text Markup Lenguaje). Este tipo de lenguajes permite ordenar la informacion dentro de las paginas web de uno u otro modo.
+Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, el mas utilizado es el **HTML** (Hyper Text Markup Lenguaje). Este tipo de lenguajes permite ordenar la informacion dentro de las paginas web de uno u otro modo. Para que la presentación de dichas paginas se utilizan lenguajes complementarios como las *hojas de estilo en cascada*, estas permiten agregar estilos a los diferentes elementos que componen la pagina HTML.
 
 <a href="#indice">Volver al Indice</a>
 ***
@@ -39,117 +36,97 @@ Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, 
 ## Objetivos
 
 - Desarrollar el conocimiento Web.
-- Conocer herramientas de desarrolladores web como: postman, inspector web.
-- Conocer que es W3C y W3C Schools y para que sirve.
-- Conocer el funcionamiento de los HTTP Methods y los codigos de HTTP.
-- Instalar el servidor mediante el comando **NPM** *(Node Package Manager)* 
-- Aprender el uso de lenguaje HTML y los tags de HTML.
+- Conocer herramientas de desarrolladores web como: brackets, inspector web, etc.
+- Conocer que es CSS y para que sirve.
+- Levantar el servidor WEB mediante el comando ``` > http-server -c10``` 
+- Aprender el uso de lenguaje CSS y las clases dentro de HTML.
 
 <a href="#indice">Volver al Indice</a>
 ***
 <a name="marco"></a>
 ##Marco Teórico
 
-- <a name="metodos"></a>**HTTP Methods** permiten realizar diferentes tipos de peticiones *REQUEST/RESPONSE* a un servidor dependiendo de las necesidades de la aplicación. Los diferentes tipos de metodos son: 
-    * ***OPTIONS:*** Solicitud de información acerca de las opciones de comunicación disponibles.
-    * ***GET:*** Recuperación de la información en forma de una entidad identificada por el URI.
-    * ***HEAD:*** Similar al metodo *GET* solo que el servidor no envia un mensaje de BODY en la respuesta.
-    * ***POST:*** Solicita que el servidor que la entidad incluida en la *request* como un nuevo subordinado del recurso.
-    * ***PUT:***se Solicita un almacenamiento de la entidad identificada por el URI, en caso de que la entidad ya exista se aconcidera como una modificacion de la entidad existente en el servidor.
-    * ***DELETE:*** Se solicita que el servidor de origen elimine el recurso identificado por el URI de la solicitud
-    * ***TRACE:*** Permite al cliente ver lo que se recibe en el otro extremo del *request*.
-    * ***CONNECT:*** Reservado para el uso de un proxyque puede puede cvambiar dinamicamente a un tunel.
-- <a name="codigos"></a>**Codigos de estado HTTP** son mensajes de respuesta que se envian al navegador para determinar el estado de la conexion http. los principales codigos de estado con:
-    * ***1XX:*** Informan al navegador de acciones que se van a realizar.
-    * ***2XX:*** Indican que la petición del navegador se ha recibido, procesado y respondido correctamente.
-    * ***3XX:*** Indican que el navegador debe realizar alguna acción adicional para que la petición se complete (como por ejemplo redirigirse a otra página).
-    * ***4XX:*** Indican que se ha producido un error cuyo responsable es el navegador.
-    * ***5XX:*** Indican que se ha producido un error cuyo responsable es el servidor.
-- <a name="w3c"></a>**W3C** *World Wide Web Consortium* consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento de la World Wide Web a largo plazo.
-- <a name="w3s"></a>**W3Schools** es un sitio web popular para el aprendizaje de las tecnologías web en línea. El contenido incluye tutoriales y referencias relacionadas con HTML, CSS, JavaScript, PHP, SQL, etc.
-- <a name="her-insp"></a>**Herramienta Inspeccionar** es una herramienta proporcionada por los navegadores que permite identificar con precisión el código HTML de todos los elementos que se ven en una página web.
-- <a name="postman"></a>**Postman** herramienta que permite revisar la comunicacion entre las APIs.
-- <a name="npm"></a>**NPM (Node Package Manager)** es el manejador de paquetes por defecto para Node.js, un entorno de ejecución para JavaScript.
-- <a name="xml"></a>**XML (eXtensible Markup Language)** es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el *World Wide Web Consortium (W3C)* para almacenar datos en forma legible.
+- <a name="css"></a>**CSS** *Cascading Stylesheets* ó *Hojas de Estilo en Cascada* es un lenguaje de hojas de estilo que permite definir y crear la presentación de un documento escrito y estructurado en lenguaje de marcado. es muy utilizado para establecer el diseño visual de las páginas web, e interfaces de usuario escritas en **HTML** o en **XHTML**. 
+
+Junto con HTML y JavaScript, CSS es una tecnologia usada por muchos sitios web para crear páginas visualmente atractivas, interfaces de usuario para aplicaciones web, y GUIs para muchas aplicaciones móviles. Ademas está diseñado principalmente para marcar la separación del contenido del documento y la forma de presentación de éste, características tales como las capas o layouts, los colores y las fuentes.
+
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Ejemplo%20xml.png">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase2-CSS/Informe%202/Imagenes/Ejemplo%20clase%20CSS.png">
 </p>
 
-        Figura 1. Ejemplo de codigo XML
-- <a name="tags"></a>**Tags HTML** son una marca con clase que delimita una región en los lenguajes basados en XML.
-
+        Figura 1. Ejemplo de clase para uso de CSS
 
 <a href="#indice">Volver al Indice</a>
 ***
 <a name="desarrollo"></a>
 ##Desarrollo de la Práctica
-Antes de dar inicio a la practica se realizo una declaracion de tipo de documento, la cual asocia el documento que se creo en esta practica al tipo de documento HTML. esto determina el modo de visualización que tendra el documento en el navegador.
+Antes de dar inicio a la practica se procede a levantar el servidor instalado previamente, mediante el comando ``` > http-server -c10```.
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Doctype.png">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase2-CSS/Informe%202/Imagenes/Levatar%20el%20servidor.png">
 </p>
-*Figura 2. Ejemplo de definicion para un documento HTML*
+*Figura 2. Levantamiento del servidor Web*
 
-Una vez realizado esto se procedio a ver los primerso tags basicos que se utilizan para la construccion de una pagina geb con HTML5.
+Una vez levantado el servidor se procedio a ralizar las primeras declaraciones de estilo.
 
-#### Cabeceras ```<hX>```
-Este tag sirve para definir encabezados van desde el ```<h1>``` hasta el ```<h6>```, donde ```<h1>``` define el encabezado mas importante y ```<h6>``` define el encabezado menos importante.
+#### Dentro del HTML
+Dentro del codigo HTML en la cabecera o ```<head>``` se puede defenir el estilo de ciertos elementos mediante una declaracion de clase. esto se lo debe realizar dentro de otra etiqueta llamada ```<style>``` la cual resolvera el contenido de esta como el estilo que se le dara a los elementos de clase aquí nombrados.
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Headers.png">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase2-CSS/HTML/Imagenes/Style%20en%20html.png">
 </p>
-*Figura 3. Uso de cabeceras*
+*Figura 3. Uso de CSS dentro del codigo HTML*
 
-#### Listas 
-
-Para escribir una lista en codigo HTML se deben usar los siguientes tags ```<ul>``` para listas no ordenadas, ```<ol>``` para listas ordenadas y ```<li>``` dentro de los tags anteriores para lsitar cada uno de los elementos.
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Listas.png">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase2-CSS/HTML/Imagenes/Style%20en%20html2.png">
 </p>
-*Figura 4. Uso de listas ordenadas y desordenadas*
+*Figura 4. Resultados obtenidos*
 
-#### Parrafos 
+#### Uso de CSS en un archivo externo 
 
-Para escribir un parrafo completo se debe utilizar el tag ```<p>``` el cual permitira dentro de este redactar todo el contenido necesario.
+Para tener fcilidad de programacion se puede crear un documento ```.css``` que contenga todos los estilos que seran utilizados por la pagina web. Para hacer uso de estos estilos solamente se debe utilizar la siguiente etiqueta HTML: 
+
+```<link rel="stylesheet" href="../HTML/Estilos.css">```
+
+En donde ```rel``` contendra la relación del archivo y ```href``` contiene la direccion fisica del archivo ```.css``` de esta manera se obtendran los mismos resultados que al usar css dentro del html.
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Parrafos.png">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase2-CSS/HTML/Imagenes/Style%20en%20css2.png">
 </p>
-*Figura 5. Ejemplo de creacion de parrafos*
+*Figura 5. Uso de css mediante archivo externo*
 
-#### Imagenes 
-
-Para referenciar una imagen se utiliza el tag  ```<img src="" alt="">``` en donde ```scr``` hace referencia ala direccion de ubicacion de la imagen y ```alt``` es un texto auxiliar el cual sirve para describir el contenido de la imagen para personas con problemas de visión.
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Imagen.png">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase2-CSS/HTML/Imagenes/Style%20en%20css.png">
 </p>
-*Figura 6. Ejemplo de insercion de imagenes*
+*Figura 6. Resultados*
 
-#### Links 
+#### Uso de framework CSS 
 
-Para insertar un link de redireccionamiento a otra pagina web se debe utilizar el tag  ```<a href="" target="">```. En donde ```href``` hace referencia a la pagina a la cual se quiere acceder y ```target``` determina el destino de apertura, es decir, una nueva pestaña, una nueva ventana, en la misma ventana, etc.
+Para evitar la creacion de un archivo con los estilos necesario para la pagina web o evitar el codigo dentro de html, se puede utilizar un framework que ya tenga cargados todos los estilos necesario para la pagina. Un claro ejemplo de esto es el Framework *Bootstrap*, que permite adecuar sus estilos a las necesidades de la pagina web.
+
+Para hacer uso de este framework accedemos a la pagina de bootstrap y obtenemos el link de referencia a su framework de manera online. Si se necesita tener el framework de manera fisica descargamos el archivo de la pagina oficial y luego en nuestra pagina HTML hacemos referencia a la ubicacion del archivo.
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Links.png">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase2-CSS/Informe%202/Imagenes/Uso%20de%20bootstrap.png">
 </p>
-*Figura 7. Ejemplo de creacion de links*
+*Figura 7. Uso de la libreria Bootstrap*
 
-#### Clases 
+Ademas bootstrap permite un mejor manejo del espacio de la pagina ya que este divide a la misma en diferentes filas, columnas y contenedores mediante la etiqueta ```<div>```. La pagina se divide en infinidad de filas, las cuales pueden ser agrupadas dentro de un contenedor y estas filas se pueden dividir hasta en 12 columnas.
 
-Dentro de los tags se pueden definir clases que determinan el compratamiento que tendra el elemento contenido por el tag. Como por ejemplo el estilo que este tendra. para poder hacer uso de dichas clases se debe dentro del tag definir la clase a utilizar y el valor de dicha clase, ejemplo:
-```
-<h2 style="background-color:pink">Listas desordenadas</h2>
-    
-```
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Clases.png">
+<img src="">
 </p>
-*Figura 8. Ejemplo de uso de la clase ```style```*
+*Figura 8. Uso de la etiqueta ```<div>```*
+
+<p align="center">
+<img src="">
+</p>
+*Figura 9. Separacion de espacios mediante bootstrap*
 
 <a href="#indice">Volver al Indice</a>
 ***
 <a name="conrec"></a>
 ##Conclusiones y Recomendaciones
-- Las cabeceras debe ser seleccionadas adecuadamente, dentro de las 6 existentes cada una tiene un tamaño que se empleara segun las necesidades.
-- Se pueden realizar combinaciones de tags, es decir, el poner un tag dentro de otro puede cambiar el comportamiento de un elemento. Por ejemplo se puede realizar una imagen referente a otra pagina web.
-- Las clases dentro de los tags cambian el comportamiento de los elementos contenidos en estos, lo que produce una mejor navegabilidad, mejor visibilidad, etc. Si se los usa adecuadamente.
+- Cuando se utiliza CSS el elemento designado a tomar el estilo siempre tomara el estilo de la ultima referencia, es decir, si existen 3 archivos de ```estilo.css``` el elemento de la pagina web tomara el estilo del ultimo archivo. Esto permite realizar combinaciones de estilos de diferentes archivos de estilo.
+- Se debe tomar en cuenta que existen diferentes frameworks de css que prestan una gran variedad de estilo, los que se pueden utilizar segun las necesidades de la pagina ha desarrollarse.
+
 
 <a href="#indice">Volver al Indice</a>
 ***
