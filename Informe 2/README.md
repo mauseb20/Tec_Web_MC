@@ -111,12 +111,12 @@ Para hacer uso de este framework accedemos a la pagina de bootstrap y obtenemos 
 Ademas bootstrap permite un mejor manejo del espacio de la pagina ya que este divide a la misma en diferentes filas, columnas y contenedores mediante la etiqueta ```<div>```. La pagina se divide en infinidad de filas, las cuales pueden ser agrupadas dentro de un contenedor y estas filas se pueden dividir hasta en 12 columnas.
 
 <p align="center">
-<img src="">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase2-CSS/Informe%202/Imagenes/Uso%20etiqueta%20div.png">
 </p>
 *Figura 8. Uso de la etiqueta ```<div>```*
 
 <p align="center">
-<img src="">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase2-CSS/Informe%202/Imagenes/Resultados%20uso%20de%20bootstrap.png">
 </p>
 *Figura 9. Separacion de espacios mediante bootstrap*
 
