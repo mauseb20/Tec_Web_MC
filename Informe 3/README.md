@@ -68,7 +68,7 @@ El uso de este marco de trabajo se lo puede hacer de dos formas la primera es de
 La segunda forma consiste en  el uso de Bootstrap CDN, esto permite tener acceso a este framework mediante la web sin ningun tipo de instalacion o descarga. Simplemente se agregan las sentencias HTML suministradas por la pagina oficial de Bootstrap.
 
 <p align="center">
-<img src="">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase3-Bootstrap/Informe%203/Imagenes/Bootstrap%20CDN.png">
 </p>
 
                             Figura 1. Uso de Bootstrap CDN.
@@ -89,7 +89,7 @@ En la practica anterior ya se vio un poco del uso de este marco de trabajo, por 
 #### Titulos o cabeceras ```<hX>```
 El uso de ```html``` sigue siendo el mismo lo unico que cambia es la presentacion del contenido al usar las cabeceras se puede notar un cambio en la tipografia.
 <p align="center">
-<img src="">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase3-Bootstrap/Informe%203/Imagenes/Cabecera%20Bootstrap.png">
 </p>
 
                             Figura 3. Tipografia de Bootstrap  
@@ -98,7 +98,7 @@ El uso de ```html``` sigue siendo el mismo lo unico que cambia es la presentacio
 
 Para insertar codigo como texto plano se utiliza la etiqueta o tag ```<code>&lt;codigogt;</code>``` esto insertara el texto en codigo html.
 <p align="center">
-<img src="">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase3-Bootstrap/Informe%203/Imagenes/Insercion%20Codigo.png">
 </p>
 
                             Figura 4. Inserción de codigo.
@@ -107,7 +107,7 @@ Para insertar codigo como texto plano se utiliza la etiqueta o tag ```<code>&lt;
 
 Los keyboard inpust ```<kbd>``` permiten ingresar texto que define comandos que el usuario puede ingresar por el teclado.
 <p align="center">
-<img src="">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase3-Bootstrap/Informe%203/Imagenes/kbd.png">
 </p>
 
                             Figura 5. Uso de Keyboard Inputs
@@ -116,7 +116,7 @@ Los keyboard inpust ```<kbd>``` permiten ingresar texto que define comandos que 
 
 Para insertar un formulario o form en una pagina html se debe usar el tag de division ```<div>``` y en el atributo ```class``` definir la clase ```form-groups``` todo lo contenido dentro de esta etiqueta automaticamente tomara el formato de un formulario, para insertar campos de descripcion y de ingreso de datos se usan los tags ```<label>``` e ```<input>``` respectivamente. Para insertar un boton se utiliza el tag ```<button>```.
 <p align="center">
-<img src="">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase3-Bootstrap/Informe%203/Imagenes/Forms.png">
 </p>
 
                     Figura 6. Creacion de un form basico en HTML
@@ -125,7 +125,7 @@ Para insertar un formulario o form en una pagina html se debe usar el tag de div
 
 Para insertar una tabla dentro de la pagina se utiliza el tag ```<table>```, dentro de esta etiqueta se utiliza la etiqueta table row ```<tr>``` para determinar cada una de las filas de la tabla, dentro del table row se pueden utilizar las etiquetas table head ```<th>```, para determinar la cabecera, y table data ```<td>``` para determinar los elementos que componen la tabla.
 <p align="center">
-<img src="">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase3-Bootstrap/Informe%203/Imagenes/Tablas.png">
 </p>
 
                             Figura 7. Creacion de tablas
