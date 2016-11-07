@@ -2,7 +2,7 @@
 <img src="http://www.epn.edu.ec/gui/header/logo.svg" width="300" height="200">
 </p>
 
-# Introducción a la WEB - HTML
+# Introducción a Bootstrap
 ***
 ### MATERIA:        `Tecnologías Web con JavaScript`
 ### TEMA:           `Uso de Bootstrap`
@@ -18,15 +18,7 @@
 - <a href="#intro">Introducción</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco">Marco Teorico</a>
-  * <a href="#metodos">HTTP Methods</a>
-  * <a href="#codigos">Codigos de estado HTTP</a>
-  * <a href="#w3c">W3C</a>
-  * <a href="#w3s">W3Schools</a>
-  * <a href="#her-insp">Herramienta Inspeccionar</a>
-  * <a href="#postman">Postman</a>
-  * <a href="#npm">NPM</a>
-  * <a href="#xml">XML</a>
-  * <a href="#tags">Tags HTML</a>
+  * <a href="#boots">Bootstrap</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -36,9 +28,15 @@ ___
 
 ## Introducción
 
-La World Wide Web **(WWW)** nace en los años 90 y su función es ordenar y distribuir la información que existe en la internet, basado en el uso de hipertextos, es decir, paginas en las cuales se pueden insertar hipervinculos. Estos conducen al usuario a un mismo punto dentro de una pagina web, o de una pagina web a otra. 
+Un framework es un conjunto estandarizado de conceptos, practicas y criterios para tratar un tipo comun de problema, estos pueden ser utilizados como referencia para la resolucion de problemas similares.
 
-Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, el mas utilizado es el **HTML** (Hyper Text Markup Lenguaje). Este tipo de lenguajes permite ordenar la informacion dentro de las paginas web de uno u otro modo.
+En el mundo del diseño web, un framework se define como un conjunto formado por una estructura de archivos y carpetas de código estandarizado **(HTML, CSS, JS documentos, etc.)** que se puede utilizar para apoyar la Desarrollo de sitios web, como base para comenzar a construir un sitio.
+
+Los frameworks frontend consisten generalmente en un paquete compuesto por una estructura de archivos y carpetas de código estandarizado (HTML, CSS, documentos JS, etc.). En esta practica tendremos una introducción a uno de los framework frontend mas utilizados dentro del diseño web. 
+
+<p align="center">
+<img src="http://res.cloudinary.com/dnkqgvjbd/image/upload/v1451679096/bootstrap_xfpqre.png">
+</p>
 
 <a href="#indice">Volver al Indice</a>
 ***
@@ -46,117 +44,99 @@ Exiten sistemas de escritura para las paginas llamados *"lenguaje de marcado"*, 
 ## Objetivos
 
 - Desarrollar el conocimiento Web.
-- Conocer herramientas de desarrolladores web como: postman, inspector web.
-- Conocer que es W3C y W3C Schools y para que sirve.
-- Conocer el funcionamiento de los HTTP Methods y los codigos de HTTP.
-- Instalar el servidor mediante el comando **NPM** *(Node Package Manager)* 
-- Aprender el uso de lenguaje HTML y los tags de HTML.
+- Conocer herramientas de desarrolladores web como: inspector web, bootstrap, etc.
+- Conocer que es bootstrap y para que sirve.
+- Conocer el funcionamiento de este framework frontend.
+- reforzar el conocimiento en el uso de lenguaje HTML y los tags de HTML.
 
 <a href="#indice">Volver al Indice</a>
 ***
 <a name="marco"></a>
 ##Marco Teórico
 
-- <a name="metodos"></a>**HTTP Methods** permiten realizar diferentes tipos de peticiones *REQUEST/RESPONSE* a un servidor dependiendo de las necesidades de la aplicación. Los diferentes tipos de metodos son: 
-    * ***OPTIONS:*** Solicitud de información acerca de las opciones de comunicación disponibles.
-    * ***GET:*** Recuperación de la información en forma de una entidad identificada por el URI.
-    * ***HEAD:*** Similar al metodo *GET* solo que el servidor no envia un mensaje de BODY en la respuesta.
-    * ***POST:*** Solicita que el servidor que la entidad incluida en la *request* como un nuevo subordinado del recurso.
-    * ***PUT:***se Solicita un almacenamiento de la entidad identificada por el URI, en caso de que la entidad ya exista se aconcidera como una modificacion de la entidad existente en el servidor.
-    * ***DELETE:*** Se solicita que el servidor de origen elimine el recurso identificado por el URI de la solicitud
-    * ***TRACE:*** Permite al cliente ver lo que se recibe en el otro extremo del *request*.
-    * ***CONNECT:*** Reservado para el uso de un proxyque puede puede cvambiar dinamicamente a un tunel.
-- <a name="codigos"></a>**Codigos de estado HTTP** son mensajes de respuesta que se envian al navegador para determinar el estado de la conexion http. los principales codigos de estado con:
-    * ***1XX:*** Informan al navegador de acciones que se van a realizar.
-    * ***2XX:*** Indican que la petición del navegador se ha recibido, procesado y respondido correctamente.
-    * ***3XX:*** Indican que el navegador debe realizar alguna acción adicional para que la petición se complete (como por ejemplo redirigirse a otra página).
-    * ***4XX:*** Indican que se ha producido un error cuyo responsable es el navegador.
-    * ***5XX:*** Indican que se ha producido un error cuyo responsable es el servidor.
-- <a name="w3c"></a>**W3C** *World Wide Web Consortium* consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento de la World Wide Web a largo plazo.
-- <a name="w3s"></a>**W3Schools** es un sitio web popular para el aprendizaje de las tecnologías web en línea. El contenido incluye tutoriales y referencias relacionadas con HTML, CSS, JavaScript, PHP, SQL, etc.
-- <a name="her-insp"></a>**Herramienta Inspeccionar** es una herramienta proporcionada por los navegadores que permite identificar con precisión el código HTML de todos los elementos que se ven en una página web.
-- <a name="postman"></a>**Postman** herramienta que permite revisar la comunicacion entre las APIs.
-- <a name="npm"></a>**NPM (Node Package Manager)** es el manejador de paquetes por defecto para Node.js, un entorno de ejecución para JavaScript.
-- <a name="xml"></a>**XML (eXtensible Markup Language)** es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el *World Wide Web Consortium (W3C)* para almacenar datos en forma legible.
+<a name="boots"></a>**Bootstrap** es un framework o conjunto de herramientas de Código abierto para diseño de sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de diseño basado en HTML y CSS, así como, extensiones de JavaScript adicionales. 
+
+Bootstrap fue desarrollado por Mark Otto y Jacbod Thornton de Twitter, como un marco de trabajo (framework) para fomentar la consistencia entre las herramientas internas. El primer desarrollo en condiciones reales ocurrió durante la primera "Semana de Hackeo" (Hackweek) de Twitter." Mark Otto mostró a algunos colegas como acelerar el desarrollo de sus proyectos con la ayuda de la herramienta de trabajo. Como resultado, decenas de temas se han introducido en el marco de trabajo.
+
+Bootstrap tiene un soporte relativamente incompleto para HTML5 y CSS 3, pero es compatible con la mayoría de los navegadores web. La información básica de compatibilidad de sitios web o aplicaciones está disponible para todos los dispositivos y navegadores.
+
+El uso de este marco de trabajo se lo puede hacer de dos formas la primera es descargando los archivos ```.css``` y ```.js```, y luego referenciar dentro del documento ```.html``` la ubicacion de estos dos archivos mediante la etiqueta:
+```
+<link rel="stylesheet" href="/directorio/archivo.css">
+```
+
+La segunda forma consiste en  el uso de Bootstrap CDN, esto permite tener acceso a este framework mediante la web sin ningun tipo de instalacion o descarga. Simplemente se agregan las sentencias HTML suministradas por la pagina oficial de Bootstrap.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Ejemplo%20xml.png">
+<img src="">
 </p>
 
-        Figura 1. Ejemplo de codigo XML
-- <a name="tags"></a>**Tags HTML** son una marca con clase que delimita una región en los lenguajes basados en XML.
-
+                            Figura 1. Uso de Bootstrap CDN.
 
 <a href="#indice">Volver al Indice</a>
 ***
 <a name="desarrollo"></a>
 ##Desarrollo de la Práctica
-Antes de dar inicio a la practica se realizo una declaracion de tipo de documento, la cual asocia el documento que se creo en esta practica al tipo de documento HTML. esto determina el modo de visualización que tendra el documento en el navegador.
+
+En la practica anterior ya se vio un poco del uso de este marco de trabajo, por lo que en esta practica retomares a partir de ese punto, es decir, a paratir de la division de la pagina en ```forms```
+
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Doctype.png">
+<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase2-CSS/Informe%202/Imagenes/Resultados%20uso%20de%20bootstrap.png">
 </p>
-*Figura 2. Ejemplo de definicion para un documento HTML*
 
-Una vez realizado esto se procedio a ver los primerso tags basicos que se utilizan para la construccion de una pagina geb con HTML5.
+            Figura 2. División de la página HTML en forms (filas y columnas)
 
-#### Cabeceras ```<hX>```
-Este tag sirve para definir encabezados van desde el ```<h1>``` hasta el ```<h6>```, donde ```<h1>``` define el encabezado mas importante y ```<h6>``` define el encabezado menos importante.
+#### Titulos o cabeceras ```<hX>```
+El uso de ```html``` sigue siendo el mismo lo unico que cambia es la presentacion del contenido al usar las cabeceras se puede notar un cambio en la tipografia.
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Headers.png">
+<img src="">
 </p>
-*Figura 3. Uso de cabeceras*
 
-#### Listas 
+                            Figura 3. Tipografia de Bootstrap  
 
-Para escribir una lista en codigo HTML se deben usar los siguientes tags ```<ul>``` para listas no ordenadas, ```<ol>``` para listas ordenadas y ```<li>``` dentro de los tags anteriores para lsitar cada uno de los elementos.
+#### Inserción de codigo 
+
+Para insertar codigo como texto plano se utiliza la etiqueta o tag ```<code>&lt;codigogt;</code>``` esto insertara el texto en codigo html.
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Listas.png">
+<img src="">
 </p>
-*Figura 4. Uso de listas ordenadas y desordenadas*
 
-#### Parrafos 
+                            Figura 4. Inserción de codigo.
 
-Para escribir un parrafo completo se debe utilizar el tag ```<p>``` el cual permitira dentro de este redactar todo el contenido necesario.
+#### Uso de Keyboard Inputs 
+
+Los keyboard inpust ```<kbd>``` permiten ingresar texto que define comandos que el usuario puede ingresar por el teclado.
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Parrafos.png">
+<img src="">
 </p>
-*Figura 5. Ejemplo de creacion de parrafos*
 
-#### Imagenes 
+                            Figura 5. Uso de Keyboard Inputs
 
-Para referenciar una imagen se utiliza el tag  ```<img src="" alt="">``` en donde ```scr``` hace referencia ala direccion de ubicacion de la imagen y ```alt``` es un texto auxiliar el cual sirve para describir el contenido de la imagen para personas con problemas de visión.
+#### Forms 
+
+Para insertar un formulario o form en una pagina html se debe usar el tag de division ```<div>``` y en el atributo ```class``` definir la clase ```form-groups``` todo lo contenido dentro de esta etiqueta automaticamente tomara el formato de un formulario, para insertar campos de descripcion y de ingreso de datos se usan los tags ```<label>``` e ```<input>``` respectivamente. Para insertar un boton se utiliza el tag ```<button>```.
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Imagen.png">
+<img src="">
 </p>
-*Figura 6. Ejemplo de insercion de imagenes*
 
-#### Links 
+                    Figura 6. Creacion de un form basico en HTML
 
-Para insertar un link de redireccionamiento a otra pagina web se debe utilizar el tag  ```<a href="" target="">```. En donde ```href``` hace referencia a la pagina a la cual se quiere acceder y ```target``` determina el destino de apertura, es decir, una nueva pestaña, una nueva ventana, en la misma ventana, etc.
+#### Tablas 
+
+Para insertar una tabla dentro de la pagina se utiliza el tag ```<table>```, dentro de esta etiqueta se utiliza la etiqueta table row ```<tr>``` para determinar cada una de las filas de la tabla, dentro del table row se pueden utilizar las etiquetas table head ```<th>```, para determinar la cabecera, y table data ```<td>``` para determinar los elementos que componen la tabla.
 <p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Links.png">
+<img src="">
 </p>
-*Figura 7. Ejemplo de creacion de links*
 
-#### Clases 
-
-Dentro de los tags se pueden definir clases que determinan el compratamiento que tendra el elemento contenido por el tag. Como por ejemplo el estilo que este tendra. para poder hacer uso de dichas clases se debe dentro del tag definir la clase a utilizar y el valor de dicha clase, ejemplo:
-```
-<h2 style="background-color:pink">Listas desordenadas</h2>
-    
-```
-<p align="center">
-<img src="https://raw.githubusercontent.com/mauseb20/Tec_Web_MC/Clase1-HTML/Informe%201/Imagenes/Clases.png">
-</p>
-*Figura 8. Ejemplo de uso de la clase ```style```*
+                            Figura 7. Creacion de tablas
 
 <a href="#indice">Volver al Indice</a>
 ***
 <a name="conrec"></a>
 ##Conclusiones y Recomendaciones
-- Las cabeceras debe ser seleccionadas adecuadamente, dentro de las 6 existentes cada una tiene un tamaño que se empleara segun las necesidades.
-- Se pueden realizar combinaciones de tags, es decir, el poner un tag dentro de otro puede cambiar el comportamiento de un elemento. Por ejemplo se puede realizar una imagen referente a otra pagina web.
-- Las clases dentro de los tags cambian el comportamiento de los elementos contenidos en estos, lo que produce una mejor navegabilidad, mejor visibilidad, etc. Si se los usa adecuadamente.
+- Bootstrap permite dar un cabado mas estilizado a las paginas y aplicaciones web que se desarrollan, ya que tiene una gran variedad de estilos definidos.
+- Para evitar sobre cargar el contenido de la pagina y hacer que el usuario tenga una experiencia mas fluida al momento de ingresar a la pagina o aplcativo web, se recomienda utilizar todos los complementos cargados en repositorios, por esta razon se debe utilizar el Bootstrap CDN en lugar de descargar el archivo.
+
 
 <a href="#indice">Volver al Indice</a>
 ***
