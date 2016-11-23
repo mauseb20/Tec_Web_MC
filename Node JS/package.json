@@ -1,0 +1,14 @@
+{
+  "name": "tecnologiaswebmscabrera",
+  "version": "1.0.1",
+  "description": "Ejemplo para uso de npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calculadora","ejemplo","estudio"
+  ],
+  "author": "Mauricio Cabrera",
+  "license": "MIT"
+}
