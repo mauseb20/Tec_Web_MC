@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var fs = require ('fs');
 
 var usuarios = [
     {
@@ -20,8 +21,39 @@ var usuarios = [
 ]
 var contador =3;
 
+//fs.readFile('./Paginas/Pagina.html',
+//           'utf8',
+//           function(error,archivoLeido){
+//    console.log(error);
+//    console.log(archivoLeido);
+//});
+
 app.get('/', function (req, res) {
-  res.send('Hello World!!');
+    var todo='';
+    console.log('1 Antes de leer');
+    fs.readFile('./Paginas/Pagina.html',
+           'utf8',
+           function(error,archivoLeido1){
+            todo+=archivoLeido1;
+                console.log('3 '+error);
+                console.log('4 '+archivoLeido1);
+                fs.readFile('./Paginas/usuario.html',
+           'utf8',
+           function(error,archivoLeido2){
+            todo+=archivoLeido2;
+                console.log('3 '+error);
+                console.log('4 '+archivoLeido2);
+                fs.readFile('./Paginas/footer.html',
+                            'utf8',
+                            function(error,archivoLeido3){
+                                todo+=archivoLeido3;
+                                console.log('3 '+error);
+                                console.log('4 '+archivoLeido3);
+                                res.send(todo);
+            })
+        })
+    })
+    console.log('2 Termino de leer');
 });
 
 app.get('/TecnologiasWeb', function (req, res) {
@@ -88,3 +120,6 @@ app.post('/TecnologiasWeb:nombre', function (req, res) {
 app.listen(5050, function () {
   console.log('Example app listening on port 5050!');
 });
+
+
+
