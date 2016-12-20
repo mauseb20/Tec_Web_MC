@@ -22,3 +22,7 @@ El saols pide opciones si no estan definidas, las opciones son:
 
 ###Servidor web de sails
 El servidor web de sails se encuentra en la carpea **assets**
+
+###Generar controladores en sails
+para generar controladores se utiliza el siguiente comando:
+```sails generate controller NombreControlador```
