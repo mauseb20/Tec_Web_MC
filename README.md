@@ -26,3 +26,34 @@ El servidor web de sails se encuentra en la carpea **assets**
 ###Generar controladores en sails
 para generar controladores se utiliza el siguiente comando:
 ```sails generate controller NombreControlador```
+
+###Generar apis en sails
+para generar apis se utiliza el siguiente comando:
+```sails generate api NombreAPI```
+
+Un Api en sails no es mas que la funcion de un controlador y un modelo.
+
+###Generar modelo en sails
+para generar modelos se utiliza el siguiente comando:
+```sails generate model NombreModelo```
+
+#API REST
+
+##Modelo Usuario
+
+##Crear Usuario
+
+###URL
+´http://localhost:1337/Usuario´
+
+###Metodo
+
+´POST´
+
+###Data
+
+```javascript
+{
+    
+}
+```
