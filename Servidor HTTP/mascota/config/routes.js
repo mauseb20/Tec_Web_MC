@@ -43,7 +43,9 @@ module.exports.routes = {
   },
     '/Cuenca':{
       view:'guayaquil'
-  }
+  },
+    'get /Inicio': 'RutasController.home',
+    'get /CrearUsuario': 'RutasController.CrearUsuario'
 
   /***************************************************************************
   *                                                                          *
