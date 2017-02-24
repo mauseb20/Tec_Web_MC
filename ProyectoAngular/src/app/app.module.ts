@@ -5,16 +5,24 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import {MasterURLService} from "./Services/master-url.service";
+import { HomeComponent } from './home/home.component';
+import {routing} from "./app.routes";
+import { TiendaComponent } from './tienda/tienda.component';
+import { ProductoComponent } from './producto/producto.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    TiendaComponent,
+    ProductoComponent
   ],
   //servicios a nivel de aplicacion
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   //Servicios compartidos
   providers: [
