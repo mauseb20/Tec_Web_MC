@@ -4,17 +4,22 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {MasterURLService} from "./Services/master-url.service";
 
 @NgModule({
   declarations: [
     AppComponent
   ],
+  //servicios a nivel de aplicacion
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  //Servicios compartidos
+  providers: [
+    MasterURLService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
